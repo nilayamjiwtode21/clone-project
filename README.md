@@ -1,0 +1,1 @@
+I have developed a Zomato Clone website using HTML and CSS, replicating the UI/UX of the popular food delivery platform, Zomato. This project showcases my front-end development skills by designing an intuitive and visually appealing interface.
