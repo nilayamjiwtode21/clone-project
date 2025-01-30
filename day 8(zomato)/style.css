@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+}
+
+.zomatoimg img{
+    width: 100vw;
+    height: 450px;
+}
+.zomato img{
+    position: absolute;
+    left: 560px;
+    top: 130px;
+    height: 70px;
+    width: 300px;
+}
+
+.lable{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    color: white;
+    font-size: 35px;
+    font-family:  Okra, Helvetica, sans-serif;
+    font-style: normal;
+    margin-top: 15px;
+    font-weight:100
+}
+
+.form input{
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.login button{
+    position: absolute;
+    top: 20px;
+    right: 220px;
+    height: 50px;
+    width: 70px;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.signUp button{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.collection{
+    position: relative;
+    width: 100vw;
+    height: 1000px;
+    background-color: white;
+}
+
+.order_online{
+    position: absolute;
+    display: inline-block;
+    height: 260px;
+    width: 350px;
+    border: 2px black solid;
+    border-radius: 20px; 
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.order_online img{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+.contain{
+    position: absolute;
+    left: 3px;
+    top: 185px;
+    height: 40px;
+    width: 325px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.Dining_card {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    height: 260px;
+    width: 350px;
+    border: 2px rgb(83, 82, 82) solid;
+    border-radius: 20px; 
+    cursor: pointer;
+    
+}
+
+.Diningimg img{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+.Dining_contain{
+    position: absolute;
+    left: 2px;
+    top: 185px;
+    height: 40px;
+    width: 326px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.nightlife_card{
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    height: 260px;
+    width: 350px;
+    border: 2px rgb(83, 82, 82) solid;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+.Nightlifeimg img{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+
+
+.box1:hover{
+    transform: scale(1.1);
+}
+
+.collection_containd{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Collections{
+    position: absolute;
+    top: 400px;
+    left: 105px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.collections_contain{
+    position: absolute;
+    top: 450px;
+    left: 105px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.all_collection{
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    color: rgb(197, 89, 89);
+    font-size: 20px;
+}
+
+.card:hover{
+       cursor: pointer;
+       background-color: #ebe6e6;
+       box-shadow: #585656;
+}
+
+.card{
+    width: 310px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 65px;
+    background-color: rgba(245, 239, 239, 0.47);
+    border-radius: 20px;
+}
+
+.image{
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    height: 190px;
+    width: 280px;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.collection1 img{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 105px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.collection1_contain{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    left: 110px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(62, 60, 60, 0.579);
+    width: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+
+.collection2 img{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collection2_contain{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    left: 450px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(62, 60, 60, 0.579);
+    width: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.collection3 img{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collection3_contain{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    left: 810px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(62, 60, 60, 0.579);
+    width: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.collection4 img{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 1150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collection4_contain{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    left: 1150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(62, 60, 60, 0.579);
+    width: 270px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.image img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    padding-left: 5px;
+}
+
+.img{
+    position: relative;
+    right: 6px;
+    left: 2px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 20pxpx;
+}
+
+.rating, .restaruant_type{
+    display: inline-block;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    border-radius: 9px;
+    width: 40px;
+    padding-left: 10px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.cusine_type, .price{
+    display: inline-block;
+}
+
+.price{
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    color: #746d6d;
+}
+
+.cusine_type{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4f4f4f;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.address, .distance{
+    display: inline-block;
+}
+
+.address{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.distance{
+    position: absolute;
+    right: 20px;
+    top: 286px;
+}
+
+.box5{
+    top: 286px;
+}
+
+.off{
+    background-color: rgba(36, 109, 227, 0.593);
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 9px;
+    top: 150px;
+}
+
+.footer{
+    
+    width: 100vw;
+    height: 200px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
